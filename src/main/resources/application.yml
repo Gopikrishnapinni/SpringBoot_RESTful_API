@@ -1,0 +1,16 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: SB_Rest_Mysql_App
+  datasource:
+    url: jdbc:mysql://localhost:5050/movies
+    username: root
+    password: gopi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+   
